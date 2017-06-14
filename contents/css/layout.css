@@ -1,0 +1,69 @@
+@charset 'utf8';
+
+.sports-box {
+	width: 100vw;
+	height: 100vh;
+}
+.sports-box header {
+	padding: 0 20px;
+	height: 100px;
+}
+.sports-box header h1 {
+	display: inline-block;
+	font-size: 36px;
+	line-height: 100px;
+	font-weight: 100;
+}
+
+.sports-canvas-box {
+	height: calc(100vh - 100px);
+}
+.sports-canvas-box > div {
+	height: 100%;
+	width: 100%;
+}
+
+.add-new-info-box input {
+	display: block;
+	width: 92%;
+	border: 0;
+	margin: 18px auto 10px;
+	outline: none;
+	border-bottom: 1px solid #ccc;
+	line-height: 32px;
+	font-size: 14px;
+}
+.add-new-info-box input:focus {
+	border-bottom-color: #333;
+}
+
+.save-btns {
+	text-align: right;
+	padding: 0 15px;
+}
+.save-btns button {
+	width: 100%;
+	padding: 8px 0;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #09f;
+	cursor: pointer;
+}
+.save-btns button:hover {
+	background: #0288e2;
+}
+
+.layers-main {
+	box-shadow: 3px 5px rgba(0, 0, 0, .2);
+}
+
+#add-new-info {
+	float: right;
+	font-size: 18px;
+	color: #09f;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	margin: 50px 0 0;
+	outline: none;
+}
