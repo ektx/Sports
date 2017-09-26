@@ -132,6 +132,9 @@ $(function() {
 
 	$('#add-new-info').click(function() {
 
+		let d = new Date();
+		let date = d.getMonth()+1 + '/' + d.getDate();
+
 		Layers.open({
 			width: 400,
 			height: 200,
@@ -145,7 +148,7 @@ $(function() {
 						<input class="time" type="text" placeholder="请输入时间: 0:00.00" />
 					</p>
 					<p>
-						<input class="date" type="text" placeholder="请输入日期: 6/8"/>
+						<input class="date" type="text" placeholder="请输入日期: 6/8" value="${date}"/>
 					</p>
 					<div class="save-btns">
 						<button>保存</button>
